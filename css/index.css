@@ -1,0 +1,947 @@
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url('../font/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('../font/Montserrat-Bold.ttf');
+}
+@font-face {
+    font-family: 'Montserrat Semi Bold';
+    src: url('../font/Montserrat-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url('../font/Montserrat-Medium.ttf');
+}
+@font-face {
+    font-family: 'Far From Homecoming';
+    src: url('../font/Far-From-Homecoming.otf');
+}
+body
+{
+    margin: 0;
+    padding: 0;
+
+}
+/************* ACCUEIL ***********************/
+section#acceuil
+{
+   
+ 
+}
+section#acceuil header
+{
+  
+    display: flex;
+    justify-content: space-around;
+    background-color: #b11313;
+}
+
+section#acceuil nav ul,
+section#hero nav ul,
+section#adversaires nav ul
+{
+    display: flex;
+
+}
+section#acceuil nav ul li ,
+section#hero nav ul li,
+section#adversaires nav ul li
+{
+    list-style-type: none;
+}
+section#acceuil nav ul li a,
+section#hero nav ul li a,
+section#adversaires nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    margin-left: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+  
+}
+
+/*****************SECTION SPYDER-MAN*********************/
+section#sypder_man
+{
+  background-image: url('../Illustration/img1.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top ;
+  overflow: hidden;
+  height: 600px;
+
+}
+section#sypder_man div.sypder_ma
+{
+    margin-top: 0%;
+}
+section#sypder_man div.container_sypder
+{
+    margin: 100px 0px 0px 50px;
+
+}
+
+section#sypder_man div.spyder_man_text h1
+{
+    font-size: 4em;
+    color:white;
+    font-family: 'Far From Homecoming';
+}
+section#sypder_man div.spyder_man_text div.button
+{
+    margin-top: 30px;
+}
+section#sypder_man div.spyder_man_text button
+{
+    border: none;
+    height: 45px;
+    border-radius: 40px;
+    width: 200px;
+    font-family: 'Montserrat Bold';
+
+}
+section#sypder_man div.spyder_man_text #btn1
+{
+
+    color:#b11313 ;
+
+}
+section#sypder_man div.spyder_man_text #btn2
+{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    
+}
+section#sypder_man div.spyder_man_text p
+{
+    
+    padding-left: 20px;
+    font-family: 'Montserrat Regular';
+    color: white;
+}
+/*****************SECTION SPYDER-MAN1*********************/
+section#sypder_man1
+{
+    background-color: #b11313;
+    overflow: hidden;
+
+}
+section#sypder_man1 div.cinema_text
+{
+    color :white;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section#sypder_man1 div.cinema_text h1,
+section#deviens h1,
+section#inscrit h1
+{
+    font-family: 'Far From Homecoming';
+    text-transform: uppercase;
+}
+
+section#sypder_man1 div.cinema_block
+{
+    display: flex;
+    justify-content: space-between;
+}
+section#sypder_man1 div.cinema_block1
+{
+    width: 30%;
+    margin-left: 10px;
+}
+section#sypder_man1 div.cinema_img
+{
+    width: 100%;
+}
+section#sypder_man1 div.cinema_img img
+{
+    width: 100%;
+}
+section#sypder_man1 div.container_sypder
+{
+    margin: 20px 50px;
+
+}
+section#sypder_man1 div.text_block
+{
+    height: 100%;
+    width: 100%;
+    text-align: justify;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section#sypder_man1 button
+{
+   height: 35px;
+   color:  #b11313;
+   border:none;
+   border-radius: 30px;
+   margin-left: 25%;
+}
+
+
+/***********************************DEVIENS**********************************/
+section#deviens
+{
+    background-color: #114c92;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+section#deviens div.image,
+section#latoile div.image
+{
+    width: 350px;
+}
+section#deviens h1
+{
+    text-align: right;
+}
+section#deviens p,
+section#sypder_man1 div.cinema_text p
+{
+    font-family: 'Montserrat Regular';
+}
+section#deviens div.formulaire
+{
+   padding: 0px ;
+    
+}
+section#deviens form
+{
+    margin-left: 10%;
+}
+section#deviens div.form-group
+{
+    margin-top: 10px;
+}
+section#deviens div.form-group input
+{
+    height: 25px;
+    width: 300px;
+    border-radius: 35px;
+    border: none;
+    padding-left: 10px;
+}
+section#deviens  button
+{
+    margin-top: 20px;
+    margin-left: 20%;
+    width: 150px;
+    height: 25px;
+    border-radius: 35px;
+    border: none;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+/*****************************************************INSCRIT************************************/
+section#inscrit
+{
+    background-color: #b11313;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+section#inscrit div.image
+{
+    width: 500px;
+    
+}
+section#inscrit div.inscrit
+{
+    margin-left: 60px;
+    width: 650px;
+}
+section#inscrit div.form-group
+{
+    margin-top: 20px;
+}
+section#inscrit input[type="button"]
+{
+    width: 250px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    border: 1px solid white;
+    padding-right:50%;
+    outline: none;
+    border-radius: 30px;
+}
+section#inscrit div.form-label
+{
+    width: 400px;
+}
+section#inscrit a{
+    color: white;
+}
+/*********************************************************FOOTER ACCEUIL*********************/
+footer#acceuil
+{
+    background-color: #000000;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer#acceuil div.block
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+footer#acceuil div.block a
+{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+footer#acceuil div.block select
+{
+    width: 150px;
+    background-color: #b11313;
+    color: white;
+    border: none;
+    height: 25px;
+    border-radius: 25px;
+}
+footer#acceuil div.block_logo
+{
+    display: flex;
+    justify-content: center;
+}
+footer#acceuil div.block_logo1
+{
+    background-color: #b11313;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin-right: 10px;
+    padding: 2px;
+}
+footer#acceuil div.block_logo1 img
+{
+    font-size: 10px;
+}
+/******************************************* HERO ***********************/
+section#hero header
+{
+  
+    display: flex;
+    justify-content: space-around;
+    background-color: #114c92;
+}
+section#hero1
+{
+    background-image: url('../Illustration/img19.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+section#hero1 div.text
+{
+    color: white;
+    margin-top:10% ;
+    margin-left: 15%;
+}
+section#hero1 div.text h1
+{
+    font-size: 4em;
+    text-transform: uppercase;
+    font-family: 'Far From Homecoming';
+}
+section#hero1 div.text p{
+    margin-top: -5%;
+    font-family: 'Montserrat Regular';
+}
+/******************************************* VALEEUR  ***********************/
+section#valeur
+{
+    background-color: #114c92;
+    color: white;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section#valeur div.titre p
+{
+    font-family: 'Montserrat Bold';
+}
+section#valeur div.text h1
+{
+    font-family: 'Far From Homecoming';
+    text-transform: uppercase;
+}
+section#valeur div.container
+{
+    display: flex;
+    margin: 20px 60px;
+}
+section#valeur div.text
+{
+    width: 50%;
+    text-align: justify;
+}
+section#valeur div.video
+{
+    width: 40%;
+}
+section#valeur div.video1
+{
+    width: 100%;
+    height:250px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+/******************************************* FONDATION  ***********************/
+section#fondation
+{
+    background-image: url("../Illustration/img20.png");
+    background-size: cover;
+    background-position: ;
+    overflow: hidden;
+    height: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+section#fondation div.text
+{
+    color: white;
+    margin-top:10% ;
+    margin-left: 60px;
+}
+section#fondation div.text h1
+{
+    font-size: 2em;
+    font-family: 'Far From Homecoming';
+    text-transform: uppercase;
+}
+/******************************************* contenu  ***********************/
+section#contenu
+{
+    background-color: #114c92;
+    overflow: hidden;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 60px;
+}
+section#contenu div.contenu-text
+{
+    display: flex;
+}
+section#contenu h1
+{
+    font-family: 'Far From Homecoming';
+
+    text-transform: uppercase;
+}
+section#contenu div.contenu-text1
+{
+    width: 50%;
+    text-align: justify;
+    margin-left: 25px;
+}
+section#contenu div.jamais-seul
+{
+    display: flex;
+}
+section#contenu div.image
+{
+    position: relative;
+    width: 65%;
+}
+section#contenu div.image1,
+section#contenu div.image2
+
+{
+    position: absolute;
+}
+section#contenu div.image2
+
+{
+    top: 60%;
+    left: 50%;
+}
+section#contenu div.text
+{
+    
+    width: 40%;
+    text-align: justify;
+    font-size: 14px;
+    margin-left: 5%;
+}
+section#contenu div.imj
+{
+    display: flex;
+}
+section#contenu div.text-imj
+{
+    width: 45%;
+    font-size: 14px;
+    text-align: justify;
+}
+section#contenu div.image-imj
+{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+section#contenu div.img1 img
+{
+    margin-left: 20px;
+}
+section#contenu div.img2 img
+{
+    margin-left: 30%;
+}
+
+
+/**************************************************AVENGERS*****************************/
+section#avengers
+{
+    padding-left: 60px;
+    background-color: #b11313;
+    overflow: hidden;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section#avengers div.contenu
+{
+   display: flex;
+   justify-content: space-between;
+ 
+}
+
+section#avengers div.propos
+{
+    width: 45%;
+    padding-top: 20px;
+ 
+}
+section#avengers div.propos1
+{
+    display: flex;
+}
+section#avengers div.text
+{
+  
+    padding-left: 55px;
+}
+section#avengers div.text p
+{
+    width: 200px;
+    text-align: justify;
+    
+}
+
+section#avengers div.image
+{
+   background-image: url("../Illustration/img32.png");
+   background-size: cover;
+   width: 45%;
+   
+
+}
+/**************************************************UNIVERSS*****************************/
+section#univers
+{
+    background-image: url("../Illustration/img33.png");
+    background-size: cover;
+    overflow: hidden;
+    background-position: top;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section#univers div.contenu
+{
+  width: 400px;
+  color: white;
+  background-color: #114c92;
+  opacity: 0.7;
+  overflow: hidden;
+  padding: 15px;
+  margin-left: 50%;
+}
+
+section#univers div.contenu h1
+{
+    font-family: 'Far From Homecoming';
+    text-transform: uppercase;
+}
+section#univers div.contenu h3
+{
+    text-align: right;
+    font-weight: bold;
+}
+section#univers div.contenu p
+{
+    text-align: justify;
+    font-size: 14px;
+}
+/*********************************************************FOOTER HERO*********************/
+footer#hero
+{
+    background-color: #000000;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer#hero div.block
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+footer#hero div.block a
+{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+footer#hero div.block select
+{
+    width: 150px;
+    background-color: #114c92;
+    color: white;
+    border: none;
+    height: 25px;
+    border-radius: 25px;
+}
+footer#hero div.block_logo
+{
+    display: flex;
+    justify-content: center;
+}
+footer#hero div.block_logo1
+{
+    background-color: #114c92;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin-right: 10px;
+    padding: 2px;
+}
+footer#hero div.block_logo1 img
+{
+    font-size: 10px;
+}
+/******************************************* adversaires ***********************/
+section#adversaires header
+{
+  
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1c530;
+}
+section#adversaires1
+{
+    background-image: url('../Illustration/img7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+section#adversaires1 div.text
+{
+    color: white;
+    margin-top:20% ;
+    margin-left: 15%;
+}
+section#adversaires1 div.text h1
+{
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: 'Far From Homecoming';
+}
+
+/******************************************* adversaires container ***********************/
+section#conatiner
+{
+    padding: 20px 60px;
+    background-color: #f1c530;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section#conatiner div.contenu
+
+{
+    display: flex;
+    justify-content: space-between;
+}
+section#conatiner div.card
+{
+    width: 30%;
+    border: 3px solid black;
+    border-radius:  0px 0px 25px 25px;
+}
+section#conatiner div.card-header
+{
+    width:100%
+}
+section#conatiner div.card-body
+{
+    
+    height: 300px;
+
+}
+section#conatiner div.card-body h3
+{
+   text-align: center;
+}
+section#conatiner div.card-body h3
+{
+   text-align: center;
+}
+section#conatiner div.card-body p
+{
+   font-size: 14px;
+   line-height: 20px;
+   padding: 0px 10px;
+}
+section#conatiner div.card-body span
+{
+  font-weight: bold;
+}
+section#conatiner div.contenu1
+
+{
+    display: flex;
+   
+}
+/*********************************************************FOOTER ADVERSAIRE*********************/
+footer#adversaires
+{
+    background-color: #000000;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer#adversaires div.block
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+footer#adversaires div.block a
+{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+footer#adversaires div.block select
+{
+    width: 150px;
+    background-color: #f1c530;
+    color: white;
+    border: none;
+    height: 25px;
+    border-radius: 25px;
+}
+footer#adversaires div.block_logo
+{
+    display: flex;
+    justify-content: center;
+}
+footer#adversaires div.block_logo1
+{
+    background-color: #f1c530;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin-right: 10px;
+    padding: 2px;
+}
+footer#adversaires div.block_logo1 img
+{
+    font-size: 10px;
+}
+
+/************************************LA  TOILE ************************************/
+
+section#latoile
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1c530;
+    color: white;
+}
+section#latoile div.text
+{
+    padding: 20px 80px;
+ 
+}
+section#latoile div.text h1
+{
+    font-family: 'Far From Homecoming';
+    font-size: 4em;
+    text-transform: uppercase;
+}
+section#latoile div.text p
+{
+    margin-top: -60px;
+    font-size: 1.2em;
+    font-family: 'Montserrat Semi Bold';
+}
+section#petit
+{
+    background-color: #b11313;
+    overflow: hidden;
+    color: white;
+    padding: 20px 60px;
+}
+section#petit div.row
+{
+    display: flex;
+    justify-content: space-between;
+}
+section#petit h2
+{
+    font-family: 'Far From Homecoming';
+    font-size: 2em;
+    text-transform: uppercase;
+}
+section#petit p
+{
+    font-family: 'Montserrat Medium';
+}
+section#petit div.image
+{
+    width: 400px;
+    margin-top: 5%;
+}
+section#petit div.col-2
+{
+    margin-top: 10%;
+}
+section#petit div.form-group
+{
+    margin-top: 20px;
+}
+section#petit div.form-group input
+{
+    height: 25px;
+    width: 250px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+section#petit div.form-group textarea
+{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding-left: 10px;
+    color: white;
+}
+section#petit button
+{
+    margin-top: 40px;
+    height: 35px;
+    width: 150px;
+    margin-left: 25%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: white;border-radius: 30px;
+}
+
+section#sayanamarvel
+{
+    background-color: #114c92;
+    overflow: hidden;
+    padding: 20px 60px;
+    color: white;
+}
+section#sayanamarvel div.row
+{
+    display: flex;
+   
+}
+section#sayanamarvel div.col-1
+{
+    width: 55%;
+    text-align: justify;
+    font-family: 'Montserrat Regular';
+}
+section#sayanamarvel div.col-1 h1
+{
+    font-family: 'Far From Homecoming';
+    text-transform: uppercase;
+}
+section#sayanamarvel div.col-2
+{
+    width: 45%;
+    padding-left: 25px;
+    text-align: justify;
+    font-family: 'Montserrat Regular';
+    margin-top: 8%;
+}
+section#sayanamarvel div.reseau
+{
+    margin-top: 5%;
+}
+section#sayanamarvel div.reseau p
+{
+    font-family: 'Montserrat Semi Bold';
+}
+section#sayanamarvel div.btn
+{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+section#sayanamarvel button
+{
+    width: 150px;
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color:  #fff;
+    border-radius: 10px;
+}
+
+/*********************************************SECTION BONUS **********************************/
+section#bonus
+{
+    background-image: url("../Illustration/img35.png");
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    color: white;
+    padding: 100px 60px 20px 60px;
+    height: 310px;
+    
+}
+section#bonus div.text
+{
+    margin-top: 15%;
+    margin-left: 5%;
+}
+section#bonus div.text h1
+{
+    font-family: 'Far From Homecoming';
+    font-size: 4em;
+    text-transform: uppercase;
+}
+section#bonus div.text p
+{
+    margin-top: -5%;
+    font-family: 'Montserrat Medium';
+}
