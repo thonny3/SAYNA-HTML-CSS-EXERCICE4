@@ -5,83 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
-    <title>bonus</title>
+    <title>Spider-Man | Bonus</title>
 </head>
 <body>
-    <section id="acceuil">
-        <header>
-            <div class="logo" style="margin-top: 10px;">
-                <img src="Logo/logo1.png" alt="sayna" id="sayana" style="width: 30px;height: 30px;margin-right: 10px;">
-                <img src="Logo/logo2.png" alt="croix" id="croix" style="width: 15px;height: 15px;margin-bottom: 10px;">
-                <img src="Logo/logo3.png" alt="marvel" id="marvel"  style="height: 30px;margin-left: 10px;">
-            </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">acceuil</a>
-                    </li>
-                    <li>
-                        <a href="adversaire.html">adversaires</a>
-                    </li>
-                    <li>
-                        <a href="hero.html">héros</a>
-                    </li>
-                    <li>
-                        <a href="propos.html">à propos</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-    </section> 
-    <section id="bonus">
-        <div class="text">
-            <h1>Un héros</h1>
-            <p>Coming soon…</p>
+    <header id="main-header">
+        <div class="logo">
+            <img src="Logo/logo1.png" alt="sayna" id="sayana">
+            <img src="Logo/logo2.png" alt="croix" id="croix" style="height: 15px; margin: 0 10px;">
+            <img src="Logo/logo3.png" alt="marvel" id="marvel">
         </div>
-    </section>
-    <footer id="acceuil">
-        <div class="block">
-            <div class="block1">
-                <p>mobil app</p>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">accueil</a></li>
+                <li><a href="adversaire.html">adversaires</a></li>
+                <li><a href="hero.html">héros</a></li>
+                <li><a href="propos.html">à propos</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <section id="bonus">
+            <div class="spyder_man_text">
+                <h1>Un héros</h1>
+                <p>Coming soon…</p>
             </div>
-            <div class="block1">
-                <a href="">la politique de confidentialité</a>
-            </div>
-            <div class="block1">
-                <a href="">cookies</a>
-            </div>
-            <div class="block1">
-                <img src="Logo/logo1.png" alt="sayna" id="sayana" style="width: 30px;height: 30px;margin-right: 10px;">
-                <img src="Logo/logo2.png" alt="croix" id="croix" style="width: 15px;height: 15px;margin-bottom: 10px;">
-                <img src="Logo/logo3.png" alt="marvel" id="marvel"  style="height: 30px;margin-left: 10px;">
-            </div>
-            <div class="block1">
-                <a href="">contact</a>
-            </div>
-            <div class="block1">
-                <a href="">blog</a>
-            </div>
-            <div class="block1">
-                <select name="" id="">
-                    <option value="">langue</option>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <ul class="footer-links">
+                <li><a href="#">Mobile App</a></li>
+                <li><a href="#">Politique de confidentialité</a></li>
+                <li><a href="#">Cookies</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <div class="footer-brand">
+                <div class="logos">
+                    <img src="Logo/logo1.png" alt="Sayna">
+                    <img src="Logo/logo2.png" alt="Cross">
+                    <img src="Logo/logo3.png" alt="Marvel">
+                </div>
+                <select class="lang-select">
+                    <option value="fr">Français</option>
+                    <option value="en">English</option>
                 </select>
             </div>
         </div>
-        <div class="block_logo">
-            <div class="block_logo1">
-                <img src="Logo/logof.png" alt="" style="width: 100%;height: 100%;">
-            </div>
-            <div class="block_logo1">
-                <img src="Logo/logoi.png" alt="" style="width: 100%;height: 100%;">
-            </div>
-            <div class="block_logo1">
-                <img src="Logo/logoy.png" alt="" style="width: 100%;height: 100%;">
-            </div>
-            <div class="block_logo1">
-                <img src="Logo/logot.png" alt="" style="width: 100%;height: 100%;">
-            </div>
+
+        <div class="footer-socials">
+            <a href="#" class="social-icon"><img src="Logo/logof.png" alt="Facebook"></a>
+            <a href="#" class="social-icon"><img src="Logo/logoi.png" alt="Instagram"></a>
+            <a href="#" class="social-icon"><img src="Logo/logoy.png" alt="Youtube"></a>
+            <a href="#" class="social-icon"><img src="Logo/logot.png" alt="Twitter"></a>
         </div>
-        <p style="text-align: center;color: white;">SaynaXmarvel, Inc.2022 We love our users</p>
+
+        <div class="footer-bottom">
+            <p>Sayna X Marvel, Inc. 2022. We love our users.</p>
+        </div>
     </footer>
+
+    <script>
+        // Sticky Header Effect
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('main-header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile Menu Toggle
+        const menuToggle = document.getElementById('mobile-menu');
+        const navMenu = document.getElementById('nav-menu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        });
+
+        // Close menu when clicking a link
+        document.querySelectorAll('nav ul li a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                menuToggle.classList.remove('active');
+            });
+        });
+    </script>
 </body>
 </html>
